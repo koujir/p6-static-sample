@@ -1,0 +1,21 @@
+{
+  "name": "p6-static-sample",
+  "version": "1.0.0",
+  "description": "Serve an image at different size / resolution depending on user request",
+  "main": "index.js",
+  "repository": "https://github.com/koujir/p6-static-sample.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "node -r dotenv/config ./node_modules/.bin/nodemon index.js"
+  },
+  "author": "LongNC",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2",
+    "lodash": "^4.17.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.15.1"
+  }
+}
